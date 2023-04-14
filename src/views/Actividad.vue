@@ -11,11 +11,11 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Bases conceptuales
-        p.mb-4 Reforzar los conceptos básicos a partir de los dispuesto por el Ministerio de Desarrollo Económico – Dirección de Agua Potable y Saneamiento Básico
+        p.mb-4 Reconocer Conceptos Básicos de Vertimientos
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Verdadero/Falso
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
