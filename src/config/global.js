@@ -22,33 +22,33 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+
         numero: '1',
         titulo: 'Presentación',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+
         numero: '2',
         titulo: 'Introducción vertimientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+
         numero: '3',
         titulo: 'Bases conceptuales',
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
+
         numero: '4',
         titulo:
           'Parámetros físicos, químicos y microbiológicos del agua residual',
@@ -56,26 +56,24 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
+
         numero: '5',
         titulo: 'Normativa en control de vertimientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
+
         numero: '6',
         titulo: 'Infraestructura de recolección de aguas residuales',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '6.1',
             titulo: 'Requisitos ',
             hash: 't_6_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.2',
             titulo:
               'Procedimiento general de diseño de los sistemas de recolección y evacuación de aguas residuales y pluviales',
@@ -85,35 +83,35 @@ export default {
       },
       {
         nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
+
         numero: '7',
         titulo: 'Diagramas de proceso para identificación de los vertimientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema8',
-        icono: 'far fa-file-alt',
+
         numero: '8',
         titulo: 'Características del vertimiento',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema9',
-        icono: 'far fa-file-alt',
+
         numero: '9',
         titulo: 'Aforos para vertimientos.',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema10',
-        icono: 'far fa-file-alt',
+
         numero: '10',
         titulo: 'Carga contaminante',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema11',
-        icono: 'far fa-file-alt',
+
         numero: '11',
         titulo:
           'Normativa ambiental relacionada con el valor máximo admisible.  ',
@@ -121,32 +119,29 @@ export default {
       },
       {
         nombreRuta: 'tema12',
-        icono: 'far fa-file-alt',
+
         numero: '12',
         titulo: 'Balance hídrico a nivel corporativo.',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema13',
-        icono: 'far fa-file-alt',
+
         numero: '13',
         titulo: 'Seguridad y salud en el trabajo en laboratorio',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '13.1',
             titulo: 'Las normas generales en laboratorio',
             hash: 't_13_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '13.2',
             titulo: 'Normas hábitos personales',
             hash: 't_13_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '13.3',
             titulo: 'Medidas de protección',
             hash: 't_13_3',
