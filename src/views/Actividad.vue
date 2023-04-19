@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(data-aos="zoom-in")(src="@/assets/template/Falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(data-aos="zoom-in")(src="@/assets/template/Falso_Verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="zoom-in-left")
           h2 Bases conceptuales
