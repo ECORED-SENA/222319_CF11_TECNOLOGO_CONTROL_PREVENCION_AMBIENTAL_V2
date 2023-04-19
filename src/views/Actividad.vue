@@ -7,12 +7,12 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(data-aos="zoom-in")(src="@/assets/template/Falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo(data-aos="zoom-in-left")
           h2 Bases conceptuales
-        p.mb-4 Reconocer Conceptos Básicos de Vertimientos
-        .tarjeta.actividad.p-3
+        p(data-aos="fade-down").mb-4 Reconocer Conceptos Básicos de Vertimientos
+        .tarjeta.actividad.p-3(data-aos="flip-down")
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Verdadero/Falso
