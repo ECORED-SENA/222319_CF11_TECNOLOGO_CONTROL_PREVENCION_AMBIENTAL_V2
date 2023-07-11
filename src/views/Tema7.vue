@@ -17,6 +17,7 @@
           h5 Figura 5.
           span Práctica de supervisión de insumos   
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png')
+        figcaption Nota. Práctica de supervisión de insumos en planta, verificación en proceso. Pedraza, S. (2016) 
 
     .bg15.p-5
       .row.justify-content-start.mb-5          
@@ -32,7 +33,7 @@
 
               p(data-aos="fade-down") Es así como aparecen en escena los diagramas de proceso, pues son una herramienta útil para todo procedimiento, ya sea en productos, servicios, o hasta en la misma vida diaria. Para continuar con la idea de diagramación en procesos productivos, hablaremos de algunos de los diagramas más representativos:                              
 
-        ul.lista-ul.mb-0(data-aos="fade-down")
+        ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
             li 
               i.fas.fa-circle.c3
               | #[b Diagramas de causa y efecto]
@@ -44,46 +45,64 @@
             h5 Figura 6.
             span Diagrama causa-efecto
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/33.svg')
+          figcaption Nota. Diagramas causa-efecto. Educaguía (2005).
 
         p(data-aos="fade-down").my-5 Para hacer un Diagrama de Causa-Efecto se sugieren estos pasos:
 
         
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center.mb-3           
       .col-lg-10        
         .tarjeta.bg16.p-4.px-5.mtop(data-aos="fade-left") 
           SlyderA(tipo="b")
-            .row.justify-content-center.align-items-center
-              .col-lg-7.mb-4.mb-md-0.my-3
+            .row.justify-content-center
+              .col-lg-5.mb-4.mb-md-0.my-3
                 h4 a.) Paso 1. 
                 p Se decide cuál va a ser la característica de calidad que se va a analizar. Por ejemplo, si se considera hablar de un producto: “la mayonesa” y sus características que podrían ser el peso del frasco lleno, la densidad del producto, el porcentaje de aceite, etc., ver figura 7. Se traza una flecha gruesa que representa el proceso y a la derecha escribimos la característica de calidad (Educaguía, 2005).
-              .col-lg-5.my-3
+              .col-lg-7.my-3
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 7.
+                  span Paso de diagrama causa-efecto              
                 .bgw.bradbot.p-4
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.svg') 
-                figcaption.text-center #[b Figura 7] Paso de diagrama causa-efecto
-            .row.justify-content-center.align-items-center
-              .col-lg-7.mb-4.mb-md-0.my-3
+                figcaption Nota. Educaguía (2005).
+            .row.justify-content-center
+              .col-lg-5.mb-4.mb-md-0.my-3
                 h4 b.) Paso 2. 
                 p Indicamos los factores causales más importantes y generales que puedan generar cambios de la característica de calidad, trazando flechas secundarias hacia la principal, ver figura 8. Por ejemplo, Materias Primas, Equipos, Operarios, Método de Medición, etc. (Educaguía, 2005).
-              .col-lg-5.my-3
+              .col-lg-7.my-3
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 8.
+                  span Paso de diagrama causa-efecto               
                 .bgw.bradbot.p-4
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png') 
-                figcaption.text-center #[b Figura 8] paso de diagrama causa-efecto 2
-            .row.justify-content-center.align-items-center
-              .col-lg-7.mb-4.mb-md-0.my-3
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.svg') 
+                figcaption Nota. Educaguía (2005).
+            .row.justify-content-center
+              .col-lg-5.mb-4.mb-md-0.my-3
                 h4 c.) Paso 3. 
                 p Se incorporan en cada rama factores más detallados que se puedan considerar causas de cambio o variación. Ver figura 9.
-              .col-lg-5.my-3
+              .col-lg-7.my-3
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 9.
+                  span Paso diagrama causa-efecto 3              
                 .bgw.bradbot.p-4
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/36.png') 
-                figcaption.text-center #[b Figura 9] Paso diagrama causa-efecto 3
-            .row.justify-content-center.align-items-center
-              .col-lg-7.mb-4.mb-md-0.my-3
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/36.svg') 
+                figcaption Nota. Educaguía (2005).
+            .row.justify-content-center
+              .col-lg-5.mb-4.mb-md-0.my-3
                 h4 d.) Paso 4. 
                 p Finalmente verificamos que todos los factores que puedan causar variación hayan sido incorporados al diagrama. Las relaciones Causa-Efecto deben quedar claramente establecidas y en ese caso, el diagrama está terminado. Revise un ejemplo de la Guía de Control de Calidad de Kaoru Ishikawa, publicada por UNIPUB (N. York). Se trata de una máquina en la cual se produce un defecto de rotación oscilante, ver figura 10. La característica de calidad es la oscilación de un eje durante la rotación (Educaguía, 2005).
-              .col-lg-5.my-3
+              .col-lg-7.my-3
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 10.
+                  span  Paso diagrama causa-efecto 4              
                 .bgw.bradbot.p-4
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/37.png') 
-                figcaption.text-center #[b Figura 10] Paso diagrama causa-efecto 4 
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/37.svg') 
+                figcaption Nota. Educaguía (2005).
+
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-auto
+        a(href="http://www.educaguia.com/apuntesde/calidad/herramientas-basicas-mejora-calidad-y-evaluacion.pdf" target="_blank") http://www.educaguia.com/apuntesde/calidad/herramientas-basicas-mejora-calidad-y-evaluacion.pdf
+
 
     .row.justify-content-center.align-items-center.mb-4           
       .col-auto.my-3 
@@ -108,18 +127,14 @@
         .col-lg-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/41.svg')
         .col-lg-8
-          ul.lista-ul.mt-5.pt-lg-5.mb-md-5(data-aos="fade-down")
-            li 
-              i.fas.fa-angle-right
-              | #[b ¿Qué materias primas son responsables de generar residuos de carácter peligroso?] Ejemplo ácido sulfúrico, cloruro de níquel, estas materias primas se adicionarían a la rama de materias primas.
+          .mt-5.pt-lg-5.mb-md-5
+            p #[b ¿Qué materias primas son responsables de generar residuos de carácter peligroso?] Ejemplo ácido sulfúrico, cloruro de níquel, estas materias primas se adicionarían a la rama de materias primas.
 
-            li 
-              i.fas.fa-angle-right
-              | #[b ¿Por qué hay problemas en el mantenimiento de la planta?] Ejemplo frecuencia del mantenimiento, malas prácticas en el mantenimiento, estos elementos se incorporan a la rama de mantenimiento.
 
-            li 
-              i.fas.fa-angle-right
-              | #[b ¿Por qué las prácticas de los operarios ocasionan la generación de residuos peligrosos?] Porque no siguen las instrucciones para la operación de equipos, hace falta capacitación, etc. (Alcaldía de Santiago de Cali, 2005). 
+            p #[b ¿Por qué hay problemas en el mantenimiento de la planta?] Ejemplo frecuencia del mantenimiento, malas prácticas en el mantenimiento, estos elementos se incorporan a la rama de mantenimiento.
+
+
+            p #[b ¿Por qué las prácticas de los operarios ocasionan la generación de residuos peligrosos?] Porque no siguen las instrucciones para la operación de equipos, hace falta capacitación, etc. (Alcaldía de Santiago de Cali, 2005). 
 
     p(data-aos="fade-down") Así se sigue ampliando el Diagrama de Causa-Efecto hasta que contenga todas las causas posibles de la generación de residuos.
 
@@ -127,7 +142,7 @@
 
     .row.justify-content-center.align-items-center.bg23.pt-5.mb-5           
       .col-lg-10
-        ul.lista-ul.mb-5(data-aos="fade-down")
+        ul.lista-ul.fa-ul.mb-5(data-aos="fade-down")
             li 
               i.fas.fa-circle.c4
               | #[b Diagramas de Flujo]
@@ -140,14 +155,15 @@
               h5 Figura 12.
               span Diagramas de flujo
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/43.svg')   
-
+            figcaption Nota. Educaguía (2005). 
+              a(href="http://www.educaguia.com/apuntesde/calidad/herramientas-basicas-mejora-calidad-y-evaluacion.pdf" target="_blank") http://www.educaguia.com/apuntesde/calidad/herramientas-basicas-mejora-calidad-y-evaluacion.pdf
         p(data-aos="fade-down").mb-5 Los símbolos gráficos, ver figura 13, para dibujar un diagrama de flujo están más o menos normalizados:  
         .titulo-sexto.color-acento-contenido
             h5 Figura 13.
             span Símbolos gráficos
         .bgw.bsha.p-4
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/44.svg')
-
+          figcaption Nota. Educaguía (2005).
         p(data-aos="fade-down").mt-5 Existen otros símbolos que se pueden utilizar. Lo importante es que su significado se entienda claramente a primera vista. En el ejemplo siguiente de la figura 14, se observa un diagrama de flujo para representar el proceso de fabricación de una resina (Reacción de Polimerización) (Educaguía, 2005).
 
     .row.justify-content-center.mb-5.mtop.px-md-4 
@@ -156,13 +172,14 @@
           .col-lg-6    
             .titulo-sexto.color-acento-contenido
               h5 Figura 14.
-              span Diagrama de flujo 2. 
+              span Diagrama de flujo 2
             .bgw.bsha.p-4
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/45.svg')   
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/45.svg')
+              figcaption Nota. Educaguía (2005).   
           .col-lg-6
             p(data-aos="fade-down") Algunas recomendaciones para construir Diagramas de Flujo son las siguientes: 
             .bg24.p-4
-              ul.lista-ul.mb-0(data-aos="fade-down")
+              ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
                 li 
                   i.fas.fa-check-circle.c5
                   | Conviene realizar un Diagrama de Flujo que describa el proceso real y no lo que está escrito sobre el mismo (lo que se supone debería ser el proceso).
@@ -181,26 +198,24 @@
               
     .row.justify-content-center.align-items-center       
       .col-lg-10
-        ul.lista-ul.mb-5(data-aos="fade-down")
+        ul.lista-ul.fa-ul.mb-5(data-aos="fade-down")
             li 
               i.fas.fa-circle.c4
               | #[b Diagrama de entrada-proceso-salida (EPS): ]
+      .row.justify-content-center.align-items-start       
+        .col-lg-5
+          .bg25.p-4.mb-5           
+            p(data-aos="fade-down") Un diagrama EPS es un conjunto de datos organizados en donde se pueden expresar de manera gráfica procesos unitarios a nivel industrial en la elaboración de un producto y porque no, en la prestación de un servicio. Este tipo de diagramas pueden llegar a tener diversas aplicaciones dependiendo de las necesidades específicas de cada caso. 
 
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .row.justify-content-center 
-          .col-lg-7
-            .bg25.p-4           
-              p(data-aos="fade-down") Un diagrama EPS es un conjunto de datos organizados en donde se pueden expresar de manera gráfica procesos unitarios a nivel industrial en la elaboración de un producto y porque no, en la prestación de un servicio. Este tipo de diagramas pueden llegar a tener diversas aplicaciones dependiendo de las necesidades específicas de cada caso. 
-
-              p(data-aos="fade-down").mb-0 A modo de ejemplo: se muestra un diagrama de flujo simplificado en la figura 15 que incluye la descripción general de las operaciones unitarias y el flujo de materiales involucrados en una actividad de servicios, desarrollada por una central térmica de generación de energía, que utiliza como fuente combustible el carbón (Alcaldía de Santiago de Cali, 2005).
-         
-          .col-lg-5    
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 15.
-              span Diagrama de flujo estación termoeléctrica ejemplo. 
-            .bgw.bsha.p-4
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/46.svg')   
+            p(data-aos="fade-down").mb-0 A modo de ejemplo: se muestra un diagrama de flujo simplificado en la figura 15 que incluye la descripción general de las operaciones unitarias y el flujo de materiales involucrados en una actividad de servicios, desarrollada por una central térmica de generación de energía, que utiliza como fuente combustible el carbón (Alcaldía de Santiago de Cali, 2005).
+              
+        .col-lg-7
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 15.
+            span Diagrama de flujo estación termoeléctrica ejemplo. 
+          .bgw.bsha.p-4.mb-5
+            img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/46.svg')   
+            figcaption Nota. Diagrama de flujo Estación Termoeléctrica y flujo de materiales. Alcaldía de Santiago de Cali. (s,f).  
             
     p(data-aos="fade-down").mb-5 Para el tema de manejo de aguas residuales los diagramas de flujo (EPS) son muy útiles para estimar caudales, cargas contaminantes, concentraciones contaminantes, origen de las aguas residuales y predecir el nivel de contaminación que determinada actividad puede generar en un cuerpo de agua. En la siguiente figura 16 se muestra un ejemplo en aguas residuales domésticas:
     .row.justify-content-center.align-items-center.mb-5           

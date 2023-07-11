@@ -50,7 +50,10 @@
             p.mb-0 Los compuestos inflamables y altamente reactivos permanecerán en las mesas de trabajo el tiempo mínimo indispensable para su utilización; posteriormente serán llevados a su lugar de almacenamiento fuera del área de trabajo. Antes de su utilización deberá asegurarse que no se encuentran cerca mecheros encendidos, calentadores, o cualquier otro foco de ignición.     
           .tarjeta.bg34.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/91.svg', alt='')
-            p.mb-0 Los productos inflamables que requieran mantenimiento a baja temperatura, no se guardarán en refrigeradores convencionales si no han sido modificados para reducir el riesgo de chispas. 
+            p.mb-0 Los productos inflamables que requieran mantenimiento a baja temperatura, no se guardarán en refrigeradores convencionales si no han sido modificados para reducir el riesgo de chispas.
+          .tarjeta.bg34.p-4.h-100.text-center
+            img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/91.svg', alt='')
+            p.mb-0 Las reacciones químicas, en general, deberán ser vigiladas en todo momento.             
           .tarjeta.bg34.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/91.svg', alt='')
             p.mb-0 No está permitida la presencia en los laboratorios de personas no autorizadas y debidamente informadas de los riesgos inherentes a los mismos. En su caso se atenderá a la información existente a la entrada de cada laboratorio. (CEU, 2018).     
@@ -63,7 +66,7 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10.bg36.p-5
-        ul.lista-ul(data-aos="fade-down")
+        ul.lista-ul.fa-ul(data-aos="fade-down")
           li 
             i.fas.fa-angle-right.c7
             | Queda prohibido fumar, comer y beber en los laboratorios.
@@ -106,22 +109,22 @@
             | Los cabellos se llevarán recogidos. 
           li 
             i.fas.fa-angle-right.c7
-            | Las manos deben lavarse:  
+            p.mb-0 Las manos deben lavarse:  
             
-            ul.lista-ul.ps-4.mt-3(data-aos="fade-down")
-              li 
-                i.fas.fa-circle.fa-xs.c7
-                | Después de cualquier operación que implique el contacto con material cáustico, tóxico, infeccioso, mutagénico, carcinogénico y/o sensibilizante.
+        ul.lista-ul.fa-ul.ps-4.mt-3(data-aos="fade-down")
+          li 
+            i.fas.fa-circle.fa-xs.c7
+            | Después de cualquier operación que implique el contacto con material cáustico, tóxico, infeccioso, mutagénico, carcinogénico y/o sensibilizante.
 
-              li 
-                i.fas.fa-circle.fa-xs.c7
-                | Siempre que se quiten guantes protectores. 
+          li 
+            i.fas.fa-circle.fa-xs.c7
+            | Siempre que se quiten guantes protectores. 
 
-              li 
-                i.fas.fa-circle.fa-xs.c7
-                | Antes de abandonar el laboratorio. 
+          li 
+            i.fas.fa-circle.fa-xs.c7
+            | Antes de abandonar el laboratorio. 
 
-        ul.lista-ul.mb-0(data-aos="fade-down")
+        ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
           li 
             i.fas.fa-angle-right.c7
             | Para el secado de las manos es preferible la utilización de papel desechable o secadores de aire en lugar de toallas. 
@@ -141,7 +144,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/92.png')   
       .col-lg-8
         .bg14.p-5
-          ul.lista-ul(data-aos="fade-down")
+          ul.lista-ul.fa-ul(data-aos="fade-down")
             li 
               i.fas.fa-angle-right.c7
               | Se debe conocer la localización y el funcionamiento de los equipos extintores cuyo mantenimiento periódico asegura su perfecto estado. 
@@ -157,7 +160,7 @@
             li 
               i.fas.fa-angle-right.c7
               | En relación con las batas de laboratorio se considerarán los siguientes puntos:              
-            ul.lista-ul.ps-4.mt-3(data-aos="fade-down")
+            ul.lista-ul.fa-ul.ps-4.mt-3(data-aos="fade-down")
               li 
                 i.fas.fa-circle.fa-xs.c7
                 | Deberán tener los puños ajustados a la muñeca, siendo conveniente que sean cerradas en la parte delantera y cuello.
@@ -174,7 +177,7 @@
                 i.fas.fa-circle.fa-xs.c7
                 | Se debe evitar que el lavado de esta ropa de trabajo se realice junto con la ropa de calle. 
 
-            ul.lista-ul.mb-0(data-aos="fade-down")
+            ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
               li 
                 i.fas.fa-angle-right.c7
                 | Se recomienda disponer siempre de gafas de seguridad que deberán ser de uso individual.

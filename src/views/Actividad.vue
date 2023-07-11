@@ -7,15 +7,15 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(data-aos="zoom-in")(src="@/assets/template/Falso_Verdadero.svg", alt="Texto que describa la imagen")
+            img(data-aos="zoom-in")(src="@/assets/template/Arrastrar_Soltar.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="zoom-in-left")
           h2 Bases conceptuales
-        p(data-aos="fade-down").mb-4 Reconocer Conceptos Básicos de Vertimientos
+        p(data-aos="fade-down").mb-4 Reforzar los conceptos básicos a partir de los dispuesto por el Ministerio de Desarrollo Económico – Dirección de Agua Potable y Saneamiento Básico.
         .tarjeta.actividad.p-3(data-aos="flip-down")
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Verdadero/Falso
+              p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

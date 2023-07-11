@@ -218,7 +218,7 @@ figcaption
   box-shadow: 0px 5px 12px #7070702c      
 
 .brad
-  border-radius: 20px   
+  border-radius: 20px !important   
 
 .bg16
   background-color: #F1F8DF
@@ -245,7 +245,11 @@ figcaption
     background-repeat: no-repeat
     background-position: center bottom
     background-color:  #D6EAA0  
-
+    @media screen and (max-width: 1300px)
+      height: 68%
+      margin-top: 5.5rem
+    @media screen and (max-width: 810px)  
+      height: 85%  
 .bg23
   background-image: url(../assets/curso/temas/42.png)
   background-repeat: no-repeat
@@ -309,8 +313,11 @@ figcaption
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: center
-    background-color:  #D6EAA0 
-
+    @media screen and (max-width: 1300px)
+      margin-top: 1rem
+    @media screen and (max-width: 810px)
+      background-color: #FEF7E2
+      background-position: center bottom
 .c6
   color: #34BC85 !important  
 
@@ -369,8 +376,10 @@ figcaption
     background-image: url('../assets/curso/temas/82.png')
     background-size: 100% auto  
     background-repeat: no-repeat
-    background-position: center
-    background-color:  #D6EAA0   
+    background-position: center 
+    background-color:  #FEF7E2 
+    @media (max-width: 810px)
+      background-position: center bottom      
 
 .bg34
   background-color: #F1F8DF !important
@@ -396,3 +405,38 @@ figcaption
   color: #FFEFD5 
   font-size: 5px !important  
   
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+figcaption, caption
+  font-weight: 400 !important          
+
+.bg-t1
+  background-color: #0E494D
+  border-radius: 50px
+  color: white !important 
+
+.bg-1
+  background-color: #DEE9F0
+  border-radius: 15px
+.bg-2
+  background-color: #B5CEDE
+  border-radius: 0 0 15px 15px   
+
+.bg-3
+  background-color: #FAEDC0
+   
+.m-top
+  margin-top: -6rem !important
+  @media (max-width: 810px)
+    margin-top: 0 !important
+
+.f-50
+  font-size: 50px
+  font-weight: bold

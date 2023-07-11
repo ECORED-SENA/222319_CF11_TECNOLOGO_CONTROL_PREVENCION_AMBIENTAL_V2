@@ -27,24 +27,7 @@
       .col
         .bgw.p-4.my-4.me-2
           h5(data-aos="fade-down") Constitución Política Nacional: 
-          p(data-aos="fade-down").mb-0 El capítulo 3: De Los Derechos Colectivos y del Ambiente, en los artículos 78, 79 y 80 establece que el estado tiene, entre otros deberes, los de proteger la diversidad e integridad del ambiente; fomentar la educación ambiental; prevenir y controlar los factores de deterioro ambiental; imponer las sanciones legales y exigir la reparación de los daños causados al ambiente. Constitución Política de Colombia. (1991, p. 40).  
-
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/17.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Documentos para agua: Vertimientos Aguas Residuales.
-
-                  p.mb-0 En el anexo vertimientos de agua residuales, se visualiza la tabla donde se puede encontrar una descripción puntual de la legislación nacional en vertimientos de agua residual. Por favor abra el anexo y consulte su información.
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.c3.fas.fa-file-download  
+          p(data-aos="fade-down").mb-0 El capítulo 3: De Los Derechos Colectivos y del Ambiente, en los #[b artículos 78, 79 y 80] establece que el estado tiene, entre otros deberes, los de proteger la diversidad e integridad del ambiente; fomentar la educación ambiental; prevenir y controlar los factores de deterioro ambiental; imponer las sanciones legales y exigir la reparación de los daños causados al ambiente. Constitución Política de Colombia. (1991, p. 40).  
 
     p(data-aos="fade-down").mb-5 En el material complementario revise el video “Norma de Vertimientos” para conocer más del tema.
 
@@ -52,8 +35,8 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)                                        
-
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Dh7MDGJ8w3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)                                        
+        figcaption Video. Normas y hábitos personales en el laboratorio
 </template>
 
 <script>

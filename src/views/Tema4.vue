@@ -13,7 +13,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
-          span Laboratorio de parámetros físico, químicos del agua. 
+          span Laboratorio de parámetros físico, químicos del agua 
         img.img-a.img-t(data-aos="fade-down")(src='@/assets/curso/temas/11.png', alt='')
         figcaption #[b Nota.] Medición de pH, Oxígeno disuelto y turbidez en planta de tratamiento de artes gráficas. Pedraza, S. (2016). - SENA.
 
@@ -59,14 +59,14 @@
 
         .tarjeta.color-primario.bg5.ts.h-100
           .p-4.pt-5
-            h4.text-center Sólidos Disueeltos Totales TDS
+            h4.text-center Sólidos disueltos Totales TDS
             p.mb-0 Es la cantidad total de sólidos disueltos en el agua. Está relacionada con la conductividad léctrica mediante la fórmula TDS = C.E. (mmhos/cm) x 700; ppm Ss++se mide en ppm. El Decreto 475 de 1998 del Ministerio de Salud establece que para agua potable la conductividad deberá estar comprendida entre 50 y 1000 micromhos/cm.  
       .tarjeta.tarjeta-avatar.h-100
         img.img-a.img-t(src='@/assets/curso/temas/14.svg' alt='AvatarTop')
 
         .tarjeta.color-primario.bg5.ts.h-100
           .p-4.pt-5
-            h4.text-center Sólidos Suspendidos Totales SST:  
+            h4.text-center Sólidos Suspendidos Totales SST  
             p.mb-0 Es la cantidad de Sólidos que el agua conserva en suspensión después de 10 minutos de asentamiento. Se mide en ppm. El Decreto 475 de 1998 del Ministerio de Salud establece que para agua potable los Sólidos Totales deberán ser inferiores a 500 ppm, sin especificar si son solamente los Sólidos Suspendidos Totales o si incluyen los Sólidos Disueltos Totales.    
       .tarjeta.tarjeta-avatar.h-100
         img.img-a.img-t(src='@/assets/curso/temas/14.svg' alt='AvatarTop')

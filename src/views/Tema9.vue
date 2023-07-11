@@ -16,7 +16,10 @@
             p(data-aos="fade-down").mb-0 El aforo o toma de Caudal de un flujo de agua es una medición que se utiliza de base para el diseño y construcción de cualquier estructura hidráulica tanto para aguas potables, como residuales. Esto se da a partir de los conceptos o fórmulas básicas para el cálculo de caudal: 
       .col-lg-4
         .bgn.p-4.brad
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/55.svg') 
+          p(data-aos="fade-down").text-center #[b Q=] volumen / tiempo
+
+          p(data-aos="fade-down").text-center.mb-0 #[b Q=] área x velocidad       
+          //- img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/55.svg') 
 
     p(data-aos="fade-down").mb-5 Para la medición de caudal se debe tener en cuenta el tipo de flujo de agua que se va a aforar y de esta manera se puede establecer el tipo de aforo más conveniente a utilizar.
 
@@ -40,19 +43,14 @@
       p(data-aos="fade-down") Este método aplica para plantas de tratamiento, grandes industrias etc., según las características físicas (geometría) de la salida del efluente, y en el caso que el método volumétrico sea inoperante, se puede aplicar el método del vertedero, que consiste en una obstrucción hecha en el canal para que el líquido retroceda un poco atrás de ella y fluya sobre o a través de ella. Si se mide la altura de la superficie líquida corriente arriba es posible determinar el flujo. La posibilidad de utilizar este método dependerá de las características del efluente y de las instalaciones que este posea (Instituto de Hidrología, Meteorología y Estudios Ambientales, 2007). 
 
     .row.justify-content-center.mb-5.mtop.px-md-4 
-      .col-lg-5
+      .col-lg-10
         .bg14.p-5.brad
-          .bgw.p-5.brad.mb-4
-            img.img-a.img-t(data-aos="fade-down")(src='@/assets/curso/temas/60.png', alt='')
-          p(data-aos="fade-down").mb-0 En caso de tomar la decisión de utilizar un vertedero de geometría conocida implica necesariamente que el flujo del vertimiento se dirija sobre un canal abierto, en el cual se pueda conocer la carga o cabeza (H) de la corriente sobre el vertedero. Con este valor se podrá determinar el caudal en el canal. Este método no es muy aplicable por dos razones: a) la mayoría de las descargas se realizan por medio de tuberías y b) el lograr coincidir un vertedero de geometría conocida (rectangular con o sin contracción, triangular o trapezoidal) y graduado con el ancho del canal es bastante improbable (Instituto de Hidrología, Meteorología y Estudios Ambientales, 2007).
-      .col-lg-5
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 17.
-          span Tipos de vertedero.
-        .bgw.bsha.p-4
-          img.img-a.img-t.mb-3(data-aos="fade-down")(src='@/assets/curso/temas/61.png', alt='')
-          figcaption.bgw #[b Nota.] Instructivo para la toma de muestras de aguas residuales. Instituto de Hidrología, Meteorología y Estudios Ambientales (2007). 
-
+          .row.justify-content-center.align-items-center        
+            .col-lg-5.my-3        
+              .bgw.p-5.brad
+                img.img-a.img-t(data-aos="fade-down")(src='@/assets/curso/temas/60.png', alt='')
+            .col-lg-7.my-3                
+              p(data-aos="fade-down").mb-0 En caso de tomar la decisión de utilizar un vertedero de geometría conocida implica necesariamente que el flujo del vertimiento se dirija sobre un canal abierto, en el cual se pueda conocer la carga o cabeza (H) de la corriente sobre el vertedero. Con este valor se podrá determinar el caudal en el canal. Este método no es muy aplicable por dos razones: a) la mayoría de las descargas se realizan por medio de tuberías y b) el lograr coincidir un vertedero de geometría conocida (rectangular con o sin contracción, triangular o trapezoidal) y graduado con el ancho del canal es bastante improbable (Instituto de Hidrología, Meteorología y Estudios Ambientales, 2007).
 
     h5(data-aos="fade-down") Canales abiertos: 
     .row.justify-content-center.align-items-center.mb-5
@@ -61,7 +59,9 @@
       .col-auto.my-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/62.svg')
 
-    h5(data-aos="fade-down") Molinete:  
+    .row  
+      .col-auto
+        h4.bg-t1.p-3(data-aos="fade-down") Molinete  
 
     h5(data-aos="fade-down") Implementos:
 
@@ -113,7 +113,7 @@
         .col-lg-6.pt-5                        
           p(data-aos="fade-down") Se establece la sección transversal de control en la que se realizará el aforo. Para seleccionar la sección transversal del canal que se tomará para el aforo, se debe de tener en cuenta las siguientes condiciones:
 
-          ul.lista-ul(data-aos="fade-down")
+          ul.lista-ul.fa-ul(data-aos="fade-down")
             li 
               i.fas.fa-angle-right.c6
               | No deben existir obstáculos sobre la corriente que alteren el paso del agua.
@@ -159,7 +159,7 @@
             p #[b t ]= tiempo de recorrido del elemento flotante, s
             p El caudal se calcula como:
             p #[b Q ]= V * A, donde
-            p #[b Q ]= caudal, m3/s
+            p #[b Q ]= caudal, m#[sup 3]/s
             p #[b V ]= velocidad superficial, m/s
             p #[b A ]= área transversal promedio, m2 (dependiendo de la geometría del sitio)
             p #[b A=] W * (ΣHi)/n, (ancho del canal por el promedio de las profundidades) 

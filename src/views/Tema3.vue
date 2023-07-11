@@ -17,44 +17,44 @@
         SlyderF(columnas="col-lg-6 col-xl-4")
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Aguas crudas: 
-            p.mb-0 aguas naturales que no han sido tratadas, por lo general provienen de una fuente o cuerpo de agua.      
+            h5.mb-3 Aguas crudas 
+            p.mb-0 Aguas naturales que no han sido tratadas, por lo general provienen de una fuente o cuerpo de agua.      
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Aguas residuales: 
-            p.mb-0 aguas que contienen material disuelto y en suspensión, luego de ser usada por una comunidad o industria.  
+            h5.mb-3 Aguas residuales 
+            p.mb-0 Aguas que contienen material disuelto y en suspensión, luego de ser usada por una comunidad o industria.  
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Aguas servidas: 
-            p.mb-0 aguas de desecho provenientes de lavamanos, tinas de baño, duchas, lavaplatos, y otros artefactos que no descargan materias fecales.      
+            h5.mb-3 Aguas servidas 
+            p.mb-0 Aguas de desecho provenientes de lavamanos, tinas de baño, duchas, lavaplatos, y otros artefactos que no descargan materias fecales.      
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Carga orgánica: 
-            p.mb-0 producto de la concentración media de DBO por el caudal medio determinado en el mismo sitio; se expresa en kilogramos por día (kg/d). 
+            h5.mb-3 Carga orgánica 
+            p.mb-0 Producto de la concentración media de DBO por el caudal medio determinado en el mismo sitio; se expresa en kilogramos por día (kg/d). 
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Caja de inspección domiciliaria: 
-            p.mb-0 cámara localizada en el límite de la red pública de alcantarillado y la privada, que recoge las aguas residuales, lluvias o combinadas provenientes de un inmueble.     
+            h5.mb-3 Caja de inspección domiciliaria 
+            p.mb-0 Cámara localizada en el límite de la red pública de alcantarillado y la privada, que recoge las aguas residuales, lluvias o combinadas provenientes de un inmueble.     
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Concentración: 
-            p.mb-0 se denomina concentración de una sustancia, elemento o compuesto en un líquido, la relación existente entre su peso y el volumen del líquido que lo contiene. 
+            h5.mb-3 Concentración 
+            p.mb-0 Se denomina concentración de una sustancia, elemento o compuesto en un líquido, la relación existente entre su peso y el volumen del líquido que lo contiene. 
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Descomposición anaerobia: 
-            p.mb-0 degradación de la materia orgánica en ausencia de oxígeno molecular por efecto de microorganismos. Usualmente va acompañada de la generación de ácidos y gas metano.      
+            h5.mb-3 Descomposición anaerobia 
+            p.mb-0 Degradación de la materia orgánica en ausencia de oxígeno molecular por efecto de microorganismos. Usualmente va acompañada de la generación de ácidos y gas metano.      
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Digestión aerobia: 
-            p.mb-0 descomposición biológica de la materia orgánica de un lodo en presencia de oxígeno.  
+            h5.mb-3 Digestión aerobia 
+            p.mb-0 Descomposición biológica de la materia orgánica de un lodo en presencia de oxígeno.  
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Efluente: 
-            p.mb-0 líquido que sale de un proceso de tratamiento.     
+            h5.mb-3 Efluente 
+            p.mb-0 Líquido que sale de un proceso de tratamiento.     
           .tarjeta.bg2.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-            h5.mb-3 Efluente final: 
-            p.mb-0 líquido que sale de una planta de tratamiento de aguas residuales.           
+            h5.mb-3 Efluente final 
+            p.mb-0 Líquido que sale de una planta de tratamiento de aguas residuales.           
 </template>
 
 <script>

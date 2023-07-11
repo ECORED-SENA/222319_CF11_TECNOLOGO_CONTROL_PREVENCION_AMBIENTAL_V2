@@ -57,7 +57,7 @@
 
         .tarjeta.color-primario.bg5.ts.h-100
           .p-4.pt-5
-            h4.text-center Punto de descarga. 
+            h4.text-center Punto de descarga 
             p.mb-0  Sitio o lugar donde se realiza un vertimiento, de manera directa o indirecta al cuerpo de agua (Ministerio de ambiente y desarrollo sostenible, 2015).  
 
       .tarjeta.tarjeta-avatar.h-100
@@ -65,7 +65,7 @@
 
         .tarjeta.color-primario.bg5.ts.h-100
           .p-4.pt-5
-            h4.text-center Tarifa de la tasa retributiva.  
+            h4.text-center Tarifa de la tasa retributiva  
             p.mb-0 Es el valor que se cobra por unidad de carga contaminante vertida al recurso hídrico (Ministerio de ambiente y desarrollo sostenible, 2015).  
 
       .tarjeta.tarjeta-avatar.h-100
@@ -89,7 +89,7 @@
 
         .tarjeta.color-primario.bg5.ts.h-100
           .p-4.pt-5
-            h4.text-center Vertimiento puntual directo al recurso hídrico.  
+            h4.text-center Vertimiento puntual directo al recurso hídrico  
             p.mb-0 Es aquel vertimiento realizado en un punto fijo y directamente al recurso hídrico (Ministerio de ambiente y desarrollo sostenible, 2015).  
 
       .tarjeta.tarjeta-avatar.h-100
@@ -97,13 +97,13 @@
 
         .tarjeta.color-primario.bg5.ts.h-100
           .p-4.pt-5
-            h4.text-center Vertimiento puntual indirecto al recurso hídrico.  
+            h4.text-center Vertimiento puntual indirecto al recurso hídrico  
             p.mb-0 Es aquel vertimiento que se realiza desde un punto fijo a través de un canal natural o artificial o de cualquier medio de conducción o transporte a un cuerpo de agua superficial (Ministerio de ambiente y desarrollo sostenible, 2015).  
 
-    .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-4
+    .row.justify-content-center.align-items-center.mb-4          
+      .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/75.png')
-      .col-lg-8
+      .col-lg-8.my-3
         p(data-aos="fade-down") En si la carga contaminante a través de su cuantificación permite al usuario plantear estrategias de tratamiento para reducirla o controlarla de acuerdo con la tecnología de tratamiento de aguas residuales que desee implementar. Es así como este parámetro permite también desarrollar memorias de cálculo y proyecciones de diseño de un tren de tratamiento de aguas residuales de acuerdo con necesidades específicas.
 
         p(data-aos="fade-down") La remoción de un porcentaje de carga contaminante, independientemente de la cantidad producida, permite el vertimiento de grandes cantidades de contaminantes a las industrias de gran tamaño con tecnologías obsoletas y exige tratamientos más estrictos para industrias que han implantado procesos o tecnologías limpias, así como a las industrias pequeñas para las cuales el volumen e impacto de los vertimientos no justifica una remoción de carga. Por eso es necesario plantear enfoques de control más efectivos y equitativos (MMAVDT, 2002).        
@@ -111,18 +111,123 @@
 
     .row.fondo-tema10-1-1.align-items-center.pb-0
       .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.align-items-center          
-          .col-auto
+        .row.justify-content-center.align-items-start          
+          .col-lg-2.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/76.png')
-          .col
+          .col-lg-10.my-3
             p(data-aos="fade-down").mt-3 De acuerdo con el decreto único ambiental 1076 de 2015 la Carga Contaminante diaria (CC) es el resultado de multiplicar el caudal promedio por la concentración de una sustancia, elemento o parámetro contaminante por el factor de conversión de unidades y por el tiempo diario de vertimiento del usuario, medido en horas por día, es decir: 
-            .row.justify-content-start.align-items-center          
-              .col-auto                           
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-pdf.svg")
-                  .anexo__texto
-                    p.mb-0 #[b Anexo.] Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
+            .row.mb-4
+              .col-lg-auto
+                .bgw.p-4
+                  h4(data-aos="fade-down").mb-0 CC. = Q x C x 0.0036 x t
+                  
+            p.mb-1(data-aos="fade-down") #[b CC] = Carga Contaminante, en kilogramos por día (kg/día)
+            p.mb-1(data-aos="fade-down") #[b Q] = Caudal promedio de aguas residuales, en litros por segundo (l/s)
+            p.mb-1(data-aos="fade-down") #[b C] = Concentración del elemento, sustancia o compuesto contaminante, en miligramos por litro (mg/L)
+            p.mb-1(data-aos="fade-down") #[b 0.0036] = Factor de conversión de unidades (de mg/s a kg/h)
+            p.mb-1(data-aos="fade-down") #[b t] = Tiempo de vertimiento del usuario, en horas por día (h)
+
+    p(data-aos="fade-down").my-5 A continuación, se puede apreciar un ejemplo de los cálculos de carga contaminante para una planta de tratamiento convencional con dos concentraciones contaminantes la cual cuenta con los siguientes datos: 
+
+    .row.justify-content-center.align-items-center.mb-4          
+      .col-lg-4.my-3
+        .bg36.p-5.brad.text-center
+          p.mb-1 Caudal de vertimiento continuo:
+          h5 Q=0,05L/s
+
+          p.mb-1 Concentraciones iniciales:
+          h5.mb-1 CDBO= 444,44mg/L
+          h5 CSST= 555,55mg/L
+
+          p.mb-1 Eficiencia del sistema anaerobio:
+          h5.mb-1 DBO: 40%
+          h5 SST: 60%
+
+          p.mb-1 Eficiencia del sistema de filtración FAFA:
+          h5.mb-1 DBO: 67%
+          h5.mb-0 SST: 50%
+      .col-lg-8.my-3
+        p Para Pedraza (2016), el esquema para el cálculo de cargas contaminantes de un sistema de tratamiento de aguas residuales domésticas.
+
+        .row  
+          .col-auto
+            h5.bg-t1.p-3 Desarrollo de los cálculos:
+
+        p.mb-1 En primera instancia se calculan las cargas contaminantes iniciales:
+        h5 CC. = Q x C x 0.0036 x t
+
+        p.mb-1 Entonces:
+        h5 Cc DBO = 0,05L/s x 444,44mg/L x 0.0036 x 24 h
+        h5 CC. DBO= 1,92 Kg/día
+
+        p #[b Nota:] el vertimiento es continuo por lo cual se le asigna un tiempo de descarga de 24 horas al día.
+
+        p.mb-1 Cc SST = 0,05L/s x 555,55mg/Lx 0.0036 x 24 h
+        p CC. SST = 2,4 Kg/día
+
+    .row.justify-content-center.mb-4          
+      .col-lg-6.my-3(data-aos="fade-right")
+        .bg5.p-4.brad.h-100
+          .bgw.p-3.brad.mb-4
+            p(data-aos="fade-down").mb-0 Para calcular la remoción del tren de tratamiento se realiza el siguiente cálculo:
+ 
+          h4 R= Cc x Ef
+          p Donde:
+          p R= Remoción de la unidad de tratamiento
+          p.mb-0 Ef= porcentaje de la eficiencia en fracción decimal por parámetro         
+        
+      .col-lg-6.my-3(data-aos="fade-left")
+        .bg5.p-4.brad.h-100
+          .bgw.p-3.brad.mb-4
+            p(data-aos="fade-down").mb-0 Para calcular la deficiencia en remoción del tren de tratamiento se realiza el siguiente cálculo: 
+ 
+          h4 DR= Cc x Def
+          p Donde:
+          p R= Deficiencia en remoción de la unidad de tratamiento
+          p.mb-0 Def= porcentaje que no removió la unidad de tratamiento en fracción decimal por parámetro
+
+    .row.justify-content-center.align-items-center.mb-5.bg-1           
+      .col-lg-6(data-aos="fade-left")
+        .p-3
+          p Entonces:
+
+          p Remoción en carga contaminante para los tanques anaerobios:
+          h5 R DBO= 1,92 Kg/día x 0,40 = 0,76Kg/día (en remoción)
+          h5 R SST= 2,4Kg/día x 0,60 = 1,44Kg/día (en remoción)
+
+          p La deficiencia de la remoción seria entonces:
+
+          h5 DR DBO= 1,92Kg/día x 0,60 = 1,15Kg/día (no removidos)
+          h5 DR SST= 2,4Kg/día x 0,40= 0,96kg/día (no removidos)                                                    
+      .col-lg-6(data-aos="fade-right")
+        .p-3
+          p Remoción en carga contaminante para los filtros anaerobios:
+
+          h5 R DBO= 1,15Kg/día x 0,67= 0,77Kg/día (en remoción)
+          h5 R SST= 0,96Kg/día x 0,50 = 0,48Kg/día (en remoción)
+
+          p La deficiencia de la remoción sería entonces:
+
+          h5 DR DBO= 1,15Kg/día x 0,33 = 0,38Kg/día (no removidos)
+          h5 DR SST= 0,96Kg/día x 0,50= 0,48kg/día (no removidos)
+      .col-lg-12.p-0
+        .bg-2.p-3 
+          p.text-center.mb-0 #[b Nota:] El valor de la carga contaminante es la DR (Cc no removida) de la unidad de tratamiento anterior.    
+
+    p(data-aos="fade-down").mb-5 Para calcular la eficiencia Total de la planta de tratamiento se realiza el siguiente cálculo:
+
+    h5(data-aos="fade-down") ET =((Ci – Cf)/ Ci) x 100
+    .row  
+      .col-auto    
+        .bg-2.p-3.brad.my-4(data-aos="flip-down")
+          P.mb-0 Nota: para calcular la concentración final se debe tomar la misma fórmula de carga contaminante y despejar C
+
+    p(data-aos="fade-down").mb-5 Entonces:
+
+    h5(data-aos="fade-down") ET DBO= ((444,44 mg/L - 87,96 mg/L)/ 444,44 mg/L) x 100
+    h5(data-aos="fade-down") ET DBO= 80,2%
+    h5(data-aos="fade-down") ET = ((555,55 mg/L - 111,1 mg/L)/ 555,55 mg/L) x 100
+    h5(data-aos="fade-down") ETSST= 80,0%                         
 </template>
 
 <script>

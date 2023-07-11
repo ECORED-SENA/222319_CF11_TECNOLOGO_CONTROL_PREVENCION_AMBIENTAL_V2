@@ -9,13 +9,20 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.align-items-end.mb-4
-      .col-lg-5     
-        .cajon.color-acento-contenido(data-aos="flip-down")(style='background-color: #DFF2ED').p-4.mb-0
-          img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/1.svg')
-          p.mb-0(data-aos="fade-down") La importancia del análisis de las muestras que se llevan al laboratorio radica particularmente en el tratamiento que se le dé a las mismas, desde la toma, el embalaje, el transporte y su respectiva identificación; puesto que, si la muestra laboratorio es alterada en alguno de los procesos, su posterior análisis entra en un margen de baja confiabilidad que se traduce en un resultado de poca fiabilidad.
-      .col-lg-7
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/2.png')
+  
+    .cajon.color-acento-contenido.mb-5(data-aos="flip-down")(style='background-color: #DFF2ED').p-4.mb-0
+      .row.justify-content-center.align-items-center     
+        .col-lg-auto.my-3
+          img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/1.svg')
+        .col.my-3
+          p.mb-0(data-aos="fade-down") Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos la temática relacionada con el el diagnóstico de los residuos y vertimientos generados según normativa vigente. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-12(data-aos="fade-left")     
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/hXJZMou80-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Diagnosticar los residuos y vertimientos generados según normativa vigente            
 
 </template>
 

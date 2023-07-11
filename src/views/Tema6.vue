@@ -33,10 +33,10 @@
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/20.png')
 
         .col-lg-8
-          ul.lista-ul(data-aos="fade-down")
+          ul.lista-ul.fa-ul(data-aos="fade-down")
             li 
               i.fas.fa-angle-right.c1
-              | Estudio de concepción del proyecto, elaborado con base en el capítulo A.4 del Título A del RAS: #[b “Aspectos generales de los sistemas de agua potable y saneamiento básico”].
+              p.mb-0 Estudio de concepción del proyecto, elaborado con base en el capítulo A.4 del Título A del RAS: #[b “Aspectos generales de los sistemas de agua potable y saneamiento básico”].
             li 
               i.fas.fa-angle-right.c1
               | Estudio de la capacidad de asimilación de la fuente receptora.
@@ -77,7 +77,7 @@
         .col-lg-4.my-md-4
           img.img-a.img-t(data-aos="fade-down")(src='@/assets/curso/temas/22.png', alt='')
         .col-lg-8.py-4             
-          ul.lista-ul.mb-0(data-aos="fade-down")
+          ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
             li 
               i.fas.fa-angle-right.c1
               | Entidad responsable del proyecto.
@@ -144,7 +144,7 @@
         img.img-a.img-t(src='@/assets/curso/temas/24.png' alt='AvatarTop')
       .tarjeta.bg12.j
         .p-4 
-          p(data-aos="fade-down").mb-0 Los sistemas de recolección y transporte de aguas residuales y/o lluvias se clasifican de acuerdo con su naturaleza en los siguientes tipos: sistemas convencionales de alcantarillado, sistemas no convencionales de alcantarillado y sistemas in situ (Ministerio de Vivienda, Ciudad y Territorio, 2006). 
+          p(data-aos="fade-down").mb-0 Los sistemas de recolección y transporte de aguas residuales y/o lluvias se clasifican de acuerdo con su naturaleza en los siguientes tipos: sistemas convencionales de alcantarillado, sistemas no convencionales de alcantarillado y sistemas #[i in situ] (Ministerio de Vivienda, Ciudad y Territorio, 2006). 
 
     .row.justify-content-start.mb-4          
       .col-auto.bg11.p-3(data-aos="flip-down")
@@ -181,14 +181,14 @@
           .col-12
             p.mb-0 Son sistemas en los que el agua residual, de una o más viviendas, es descargada a un tanque interceptor de sólidos donde estos se retienen y degradan, produciendo un efluente sin sólidos sedimentables que es transportado por gravedad, en un sistema de tramos con diámetros reducidos y poco profundos. En los literales E.3.3 y E.3.4 del Título E del RAS “Sistemas de tratamiento de aguas residuales” se presentan los elementos para la concepción y diseño de estos tanques. Sirven para uso doméstico en pequeñas comunidades o poblados y su funcionamiento depende de la operación adecuada de los tanques interceptores y del control al uso indebido de los tramos de la red. Desde el punto de vista ambiental pueden tener un costo y un impacto mucho más reducido, sin embargo, pueden requerir de esfuerzos operativos importantes (Ministerio de Vivienda, Ciudad y Territorio, 2016).  
 
-    p(data-aos="fade-down").mb-5 Los sistemas no convencionales pueden constituir alternativas de saneamiento cuando, partiendo de sistemas in situ, se incrementa la densidad de población. 
+    p(data-aos="fade-down").mb-5 Los sistemas no convencionales pueden constituir alternativas de saneamiento cuando, partiendo de sistemas #[i in situ], se incrementa la densidad de población. 
 
     .tarjeta.tarjeta-verde.p-4(data-aos="fade-left") 
       SlyderA(tipo="b")
         .row.justify-content-center.mt-3
           .col-lg-7.mb-4.mb-md-0.my-3
-            h4 Sistemas in situ: 
-            p Existen sistemas basados en la disposición in situ de las aguas residuales como son las letrinas y tanques, pozos sépticos y campos de riego, los cuales son sistemas de muy bajo costo y pueden ser apropiados en áreas suburbanas con baja densidad de población y con adecuadas características del subsuelo. En el tiempo, estos sistemas deben considerarse como sistemas transitorios a sistemas convencionales de recolección, transporte y disposición, a medida que el uso de la tierra tienda a ser urbano. En el Título J del RAS “Alternativas tecnológicas en agua y saneamiento para el sector rural” se establecen los criterios de diseño de este tipo de sistemas. Además, se debe seguir lo establecido en el Decreto 302 de 2000 si se cuenta con la aprobación de la Autoridad Ambiental y de la Superintendencia de Servicios Públicos Domiciliarios -SSPD (Ministerio de Vivienda, Ciudad y Territorio, 2016). 
+            h4 Sistemas #[i in situ]: 
+            p Existen sistemas basados en la disposición #[i in situ] de las aguas residuales como son las letrinas y tanques, pozos sépticos y campos de riego, los cuales son sistemas de muy bajo costo y pueden ser apropiados en áreas suburbanas con baja densidad de población y con adecuadas características del subsuelo. En el tiempo, estos sistemas deben considerarse como sistemas transitorios a sistemas convencionales de recolección, transporte y disposición, a medida que el uso de la tierra tienda a ser urbano. En el Título J del RAS “Alternativas tecnológicas en agua y saneamiento para el sector rural” se establecen los criterios de diseño de este tipo de sistemas. Además, se debe seguir lo establecido en el Decreto 302 de 2000 si se cuenta con la aprobación de la Autoridad Ambiental y de la Superintendencia de Servicios Públicos Domiciliarios -SSPD (Ministerio de Vivienda, Ciudad y Territorio, 2016). 
           .col-lg-5.my-3
             img.img-a.img-t(src='@/assets/curso/temas/27.png', alt='') 
         .row.justify-content-center.mt-3
@@ -201,16 +201,17 @@
             img.img-a.img-t(src='@/assets/curso/temas/28.png', alt='')  
         .row.justify-content-center.mt-3
           .col-lg-7.mb-4.mb-md-0.my-3
-            h4 Periodo de diseño 
+            h4 Periodo de diseño: 
             p El periodo de planeamiento o de diseño debe fijar las condiciones básicas del proyecto como la capacidad del sistema para atender la demanda futura, la densidad actual y de saturación, la durabilidad de los materiales y equipos empleados, y la calidad de la construcción, operación y mantenimiento. El periodo de planeamiento también depende de la demanda del servicio, la programación de inversiones, la factibilidad de ampliaciones y las tasas de crecimiento de la población, del comercio y de la industria. Como mínimo, los sistemas de recolección y evacuación de aguas residuales o lluvias deben proyectarse para los periodos de planeamiento que se presentan en la siguiente tabla 1: 
 
             .row.justify-content-center.align-items-center
               .col-lg-11
                 .titulo-sexto.color-acento-contenido
                   h5 Tabla 1.
-                  span Periodos de planeamiento.
+                  span Periodos de planeamiento
                 .tabla.color-acento-botones
                   table
+                    caption Nota. Adaptada de Ministerio de Desarrollo Económico Dirección de Agua Potable y Saneamiento Básico (2000)
                     thead.bgh
                       tr
                         th.th-4.text-center  Nivel de complejidad del sistema	

@@ -11,11 +11,11 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
-        h5(data-aos="fade-down") Aguas Residuales Domésticas, (ARD):
-        p(data-aos="fade-down") son las procedentes de los hogares, así como las de las instalaciones en las cuales se desarrollan actividades industriales, comerciales o de servicios y que correspondan a:  
+        h5(data-aos="fade-down") Aguas Residuales Domésticas, (ARD)
+        p(data-aos="fade-down") Son las procedentes de los hogares, así como las de las instalaciones en las cuales se desarrollan actividades industriales, comerciales o de servicios y que correspondan a:  
         .row.justify-content-center.align-items-center.mb-5          
           .col-lg-8
-            ul.lista-ul(data-aos="fade-down")
+            ul.lista-ul.fa-ul(data-aos="fade-down")
               li 
                 i.fas.fa-angle-right
                 | Descargas de los retretes y servicios sanitarios. 
@@ -25,7 +25,7 @@
           .col-lg-4 
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/77.png')
 
-        h5(data-aos="fade-down") Aguas Residuales no Domésticas, (ARnD): 
+        h5(data-aos="fade-down") Aguas Residuales no Domésticas, (ARnD) 
 
         p(data-aos="fade-down") Son las procedentes de las actividades industriales, comerciales o de servicios distintas a las que constituyen aguas residuales domésticas, (ARD)  (Ministerio de Ambiente y Desarrollo Sostenible, 2015).  
 
@@ -36,9 +36,15 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/78.png')   
       .col-lg-7
         .bg14.p-4.mb-4
-          p(data-aos="fade-down").mb-0 #[b 1.] Las determinaciones de las diferencias de los #[b valores de temperatura] en la zona de mezcla térmica del cuerpo de agua superficial receptor tomando como referencia las condiciones de la temperatura de este antes del punto de vertimiento puntual y imultáneamente. (Ministerio de Ambiente y Desarrollo Sostenible, 2015).          
+          ol.lista-ol.fa-ul
+            li 
+              span.text-bold 1. 
+              p(data-aos="fade-down").mb-0 Las determinaciones de las diferencias de los #[b valores de temperatura] en la zona de mezcla térmica del cuerpo de agua superficial receptor tomando como referencia las condiciones de la temperatura de este antes del punto de vertimiento puntual y imultáneamente. (Ministerio de Ambiente y Desarrollo Sostenible, 2015).          
         .bg26.p-4
-          p(data-aos="fade-down").mb-0 #[b 2.] Las determinaciones de los cambios de los componentes #[b fisicoquímicos e hidrobiológicos] del cuerpo de agua superficial receptor y tomando como referencia las condiciones del mismo antes del punto de vertimiento puntual. 
+          ol.lista-ol.fa-ul
+            li 
+              span.text-bold 2. 
+              p(data-aos="fade-down").mb-0 Las determinaciones de los cambios de los componentes #[b fisicoquímicos e hidrobiológicos] del cuerpo de agua superficial receptor y tomando como referencia las condiciones del mismo antes del punto de vertimiento puntual. 
 
     p(data-aos="fade-down") Ambas determinaciones se hacen considerando para las mediciones la sección transversal y perpendicular del cauce del cuerpo de agua receptor y deben efectuarse para diferentes periodos climáticos (Ministerio de Ambiente y Desarrollo Sostenible, 2015). 
 
@@ -46,7 +52,7 @@
 
     p(data-aos="fade-down") se realizará el análisis y reporte de los valores de la concentración en Número Más Probable (NMP/100mL) de los Coliformes Termotolerantes presentes en los vertimientos puntuales de aguas residuales (ARD y ARnD) mediante las cuales se gestionen excretas humanas y/o de animales a cuerpos de aguas superficiales, cuando la carga másica en las aguas residuales antes del sistema de tratamiento es mayor a 125,00 Kg/día de DBO5 (Ministerio de Ambiente y Desarrollo Sostenible, 2015).  
 
-    p(data-aos="fade-down").mb-5 La resolución se divide por capítulos de acuerdo con la siguiente tabla 2: 
+    p(data-aos="fade-down").mb-5 La resolución se divide por Capítulos de acuerdo con la siguiente tabla 2: 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-10
@@ -62,23 +68,23 @@
         
                 tbody
                   tr.bgt1
-                    td(colspan='3').text-center <b>CAPÍTULO III</b>
+                    td(colspan='3').text-center <b>Capítulo III</b>
                     td(colspan='9') Valores límites máximos permisibles microbiológicos en vertimientos puntuales de aguas residuales (ard y arnd) a cuerpos de aguas superficiales.
                   tr
-                    td(colspan='3').text-center <b>CAPÍTULO IV</b>
+                    td(colspan='3').text-center <b>Capítulo IV</b>
                     td(colspan='9') Parámetros de ingredientes activos de plaguicidas de las categorías toxicológicas ia, ib y ii y sus valores límites máximos permisibles en los vertimientos puntuales de aguas residuales no domésticas, (arnd) a cuerpos de aguas superficiales y al alcantarillado público.
 
                   tr.bgt1
-                    td(colspan='3').text-center <b>CAPÍTULO V</b>
+                    td(colspan='3').text-center <b>Capítulo V</b>
                     td(colspan='9') Parámetros fisicoquímicos y sus valores límites máximos permisibles en los vertimientos puntuales de aguas residuales no domésticas (arnd) a cuerpos de aguas superficiales.
 
                   tr
-                    td(colspan='3').text-center <b>CAPÍTULO VI</b>
+                    td(colspan='3').text-center <b>Capítulo VI</b>
                     td(colspan='9') Parámetros fisicoquímicos y sus valores límites máximos permisibles en los vertimientos puntuales de aguas residuales domésticas, (ard) y de las aguas residuales (ard – arnd) de los prestadores del servicio público de alcantarillado a cuerpos de aguas superficiales.
                       
                   tr.bgt1
-                    td(colspan='3').text-center <b>CAPÍTULO VII</b>
-                    td(colspan='9') Actividades industriales, comerciales o de servicios diferentes a las contempladas en los capítulos v y vi con vertimientos puntuales a cuerpos de agua superficiales
+                    td(colspan='3').text-center <b>Capítulo VII</b>
+                    td(colspan='9') Actividades industriales, comerciales o de servicios diferentes a las contempladas en los Capítulos v y vi con vertimientos puntuales a cuerpos de agua superficiales.
             figcaption #[b Nota]. Adaptado de Pedraza (2020). 
 
     p(data-aos="fade-down").mb-5 La norma se divide por sectores para cubrir la mayor parte de la economía colombiana de la siguiente forma: 
@@ -86,37 +92,37 @@
     .row.justify-content-center.align-items-center         
       .col-lg-10.p-5.bg25.bradbot 
         .row.justify-content-center.align-items-center           
-          .col-lg-4
+          .col-lg-4.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/79.png')
 
-          .col-lg-8    
-            ul.lista-ul(data-aos="fade-down")
+          .col-lg-8.my-3    
+            ul.lista-ul.fa-ul(data-aos="fade-down")
               li 
                 i.fas.fa-angle-right
-                | #[b CAPÍTULO VI.] Parámetros fisicoquímicos y sus valores límites máximos permisibles en los vertimientos puntuales de aguas residuales no domésticas (arnd) a cuerpos de aguas superficiales.
+                p.mb-0 #[b Capítulo VI.] Parámetros fisicoquímicos y sus valores límites máximos permisibles en los vertimientos puntuales de aguas residuales no domésticas (arnd) a cuerpos de aguas superficiales.
 
               li 
                 i.fas.fa-angle-right
-                | #[b CAPÍTULO VII.] Actividades industriales, comerciales o de servicios diferentes a las contempladas en los capítulos v y vi con vertimientos puntuales a cuerpos de agua superficiales.
+                p.mb-0 #[b Capítulo VII.] Actividades industriales, comerciales o de servicios diferentes a las contempladas en los Capítulos v y vi con vertimientos puntuales a cuerpos de agua superficiales.
 
               li 
                 i.fas.fa-angle-right
-                | #[b CAPÍTULO VIII.] Parámetros fisicoquímicos y sus valores límites máximos permisibles en los vertimientos puntuales de aguas residuales no domésticas (arnd) al alcantarillado público. 
-    .row.fondo-tema10-1-1.align-items-center.pb-0
-      .col-lg-12.col-12.px-lg-5.px-4
+                p.mb-0 #[b Capítulo VIII.] Parámetros fisicoquímicos y sus valores límites máximos permisibles en los vertimientos puntuales de aguas residuales no domésticas (arnd) al alcantarillado público. 
+    .row.justify-content-center.align-items-center         
+      .col-lg-10.bg-3.p-4
         .row.justify-content-center.align-items-center          
-          .col-auto
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/76.png')
-          .col
-            p(data-aos="fade-down").mt-3 Para complementar la información consultar la siguiente información
-            p(data-aos="fade-down") En el material complementario puede revisar             
-            .row.justify-content-start.align-items-center          
-              .col-auto                           
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-pdf.svg")
-                  .anexo__texto
-                    p.mb-0 RESOLUCIÓN 631 DE 2015                              
+          .col-lg-auto.my-3
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/ico.svg')
+          .col.my-3
+            p(data-aos="fade-down") Para complementar la información consultar la siguiente información
+            p(data-aos="fade-down").mb-0 En el material complementario puede revisar:             
+    
+          .col-lg-auto.my-3                           
+            a.anexo(:href="obtenerLink('/downloads/resolucion-631-de-2015.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p.mb-0 RESOLUCIÓN 631 DE 2015                              
 </template>
 
 <script>
