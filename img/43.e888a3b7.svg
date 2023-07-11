@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="523" height="263" viewBox="0 0 523 263">
+  <defs>
+    <filter id="Rectángulo_340115" x="0" y="0" width="523" height="263" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_340125" x="60.5" y="28.5" width="96" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_340126" x="63" y="90" width="86" height="64" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_723008" x="65.312" y="165.5" width="89.376" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_723009" x="221.744" y="154.42" width="135.999" height="86.155" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_340127" x="397" y="166" width="73" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_959262" data-name="Grupo 959262" transform="translate(-801 -3799)">
+    <g transform="matrix(1, 0, 0, 1, 801, 3799)" filter="url(#Rectángulo_340115)">
+      <rect id="Rectángulo_340115-2" data-name="Rectángulo 340115" width="505" height="245" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Grupo_959263" data-name="Grupo 959263" transform="translate(0 -11)">
+      <g transform="matrix(1, 0, 0, 1, 801, 3810)" filter="url(#Rectángulo_340125)">
+        <g id="Rectángulo_340125-2" data-name="Rectángulo 340125" transform="translate(62 30)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="87" height="41" rx="10" stroke="none"/>
+          <rect x="0.5" y="0.5" width="86" height="40" rx="9.5" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 801, 3810)" filter="url(#Rectángulo_340126)">
+        <g id="Rectángulo_340126-2" data-name="Rectángulo 340126" transform="translate(72 96)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="68" height="46" stroke="none"/>
+          <rect x="0.5" y="0.5" width="67" height="45" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 801, 3810)" filter="url(#Trazado_723008)">
+        <path id="Trazado_723008-2" data-name="Trazado 723008" d="M5266-7638h70l-12,37h-46Z" transform="translate(-5194 7810)" fill="#fff" stroke="#707070" stroke-width="1"/>
+      </g>
+      <path id="Icon_awesome-long-arrow-alt-down" data-name="Icon awesome-long-arrow-alt-down" d="M7.292,14.869V2.732a.482.482,0,0,0-.482-.482H4.558a.482.482,0,0,0-.482.482V14.869H2.225a.965.965,0,0,0-.682,1.647L5,19.975a.965.965,0,0,0,1.364,0l3.459-3.459a.965.965,0,0,0-.682-1.647H7.292Z" transform="translate(903.868 3878.75)"/>
+      <path id="Icon_awesome-long-arrow-alt-down-2" data-name="Icon awesome-long-arrow-alt-down" d="M7.292,14.869V2.732a.482.482,0,0,0-.482-.482H4.558a.482.482,0,0,0-.482.482V14.869H2.225a.965.965,0,0,0-.682,1.647L5,19.975a.965.965,0,0,0,1.364,0l3.459-3.459a.965.965,0,0,0-.682-1.647H7.292Z" transform="translate(903.868 3949.75)"/>
+      <path id="Icon_awesome-long-arrow-alt-right" data-name="Icon awesome-long-arrow-alt-right" d="M15.319,13.679H.586A.586.586,0,0,0,0,14.265V17a.586.586,0,0,0,.586.586H15.319V19.83a1.171,1.171,0,0,0,2,.828l4.2-4.2a1.171,1.171,0,0,0,0-1.656l-4.2-4.2a1.171,1.171,0,0,0-2,.828Z" transform="translate(994.698 3988.869)"/>
+      <path id="Trazado_723011" data-name="Trazado 723011" d="M1083.7,4075.5H1025" transform="translate(-89 -71)" fill="none" stroke="#282828" stroke-width="4"/>
+      <g transform="matrix(1, 0, 0, 1, 801, 3810)" filter="url(#Trazado_723009)">
+        <path id="Trazado_723009-2" data-name="Trazado 723009" d="M5444-7649l-58,34,58,33,58-33Z" transform="translate(-5154.26 7810)" fill="#fff" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 801, 3810)" filter="url(#Rectángulo_340127)">
+        <g id="Rectángulo_340127-2" data-name="Rectángulo 340127" transform="translate(406 172)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="55" height="42" stroke="none"/>
+          <rect x="0.5" y="0.5" width="54" height="41" fill="none"/>
+        </g>
+      </g>
+      <path id="Icon_awesome-long-arrow-alt-right-2" data-name="Icon awesome-long-arrow-alt-right" d="M15.319,13.679H.586A.586.586,0,0,0,0,14.265V17a.586.586,0,0,0,.586.586H15.319V19.83a1.171,1.171,0,0,0,2,.828l4.2-4.2a1.171,1.171,0,0,0,0-1.656l-4.2-4.2a1.171,1.171,0,0,0-2,.828Z" transform="translate(1172.016 3988.869)"/>
+      <path id="Icon_awesome-long-arrow-alt-left" data-name="Icon awesome-long-arrow-alt-left" d="M7.148,18.262h16.1a.64.64,0,0,0,.64-.64V14.636a.64.64,0,0,0-.64-.64H7.148V11.54a1.28,1.28,0,0,0-2.185-.9L.375,15.224a1.28,1.28,0,0,0,0,1.81l4.589,4.589a1.28,1.28,0,0,0,2.185-.9Z" transform="translate(961.338 3907)"/>
+      <path id="Trazado_723010" data-name="Trazado 723010" d="M5361.966-7696.871h117.461v48.371" transform="translate(-4388.684 11620)" fill="none" stroke="#282828" stroke-width="4"/>
+      <path id="Trazado_723012" data-name="Trazado 723012" d="M1055.757,4075.5H1025" transform="translate(123.743 -71)" fill="none" stroke="#282828" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
