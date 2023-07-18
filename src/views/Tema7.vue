@@ -51,11 +51,11 @@
 
         
     .row.justify-content-center.align-items-center.mb-3           
-      .col-lg-10        
+      .col-lg-11      
         .tarjeta.bg16.p-4.px-5.mtop(data-aos="fade-left") 
           SlyderA(tipo="b")
             .row.justify-content-center
-              .col-lg-5.mb-4.mb-md-0.my-3
+              .col-lg-4.my-3
                 h4 a.) Paso 1. 
                 p Se decide cuál va a ser la característica de calidad que se va a analizar. Por ejemplo, si se considera hablar de un producto: “la mayonesa” y sus características que podrían ser el peso del frasco lleno, la densidad del producto, el porcentaje de aceite, etc., ver figura 7. Se traza una flecha gruesa que representa el proceso y a la derecha escribimos la característica de calidad (Educaguía, 2005).
               .col-lg-7.my-3
@@ -66,7 +66,7 @@
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.svg') 
                 figcaption Nota. Educaguía (2005).
             .row.justify-content-center
-              .col-lg-5.mb-4.mb-md-0.my-3
+              .col-lg-4.my-3
                 h4 b.) Paso 2. 
                 p Indicamos los factores causales más importantes y generales que puedan generar cambios de la característica de calidad, trazando flechas secundarias hacia la principal, ver figura 8. Por ejemplo, Materias Primas, Equipos, Operarios, Método de Medición, etc. (Educaguía, 2005).
               .col-lg-7.my-3
@@ -77,10 +77,9 @@
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.svg') 
                 figcaption Nota. Educaguía (2005).
             .row.justify-content-center
-              .col-lg-5.mb-4.mb-md-0.my-3
+              .col-lg-12
                 h4 c.) Paso 3. 
                 p Se incorporan en cada rama factores más detallados que se puedan considerar causas de cambio o variación. Ver figura 9.
-              .col-lg-7.my-3
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 9.
                   span Paso diagrama causa-efecto 3              
@@ -88,10 +87,9 @@
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/36.svg') 
                 figcaption Nota. Educaguía (2005).
             .row.justify-content-center
-              .col-lg-5.mb-4.mb-md-0.my-3
+              .col-lg-12
                 h4 d.) Paso 4. 
                 p Finalmente verificamos que todos los factores que puedan causar variación hayan sido incorporados al diagrama. Las relaciones Causa-Efecto deben quedar claramente establecidas y en ese caso, el diagrama está terminado. Revise un ejemplo de la Guía de Control de Calidad de Kaoru Ishikawa, publicada por UNIPUB (N. York). Se trata de una máquina en la cual se produce un defecto de rotación oscilante, ver figura 10. La característica de calidad es la oscilación de un eje durante la rotación (Educaguía, 2005).
-              .col-lg-7.my-3
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 10.
                   span  Paso diagrama causa-efecto 4              
@@ -117,7 +115,7 @@
           h5 Figura 11.
           span Pasos diagrama –causa efecto 5
         .bg17.p-5
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/39.png')
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/39.svg')
     p(data-aos="fade-down") En este ejemplo se señalan los factores causales más importantes y generales que puedan ocasionar la generación de tales residuos, trazando flechas secundarias hacia la principal. Por ejemplo, materias primas, equipos, operarios, mantenimiento, proveedores, etc. Se Incorpora en cada rama factores más detallados que se pueden considerar causas de la generación. 
 
     p(data-aos="fade-down").mb-5 Para hacer esto, se pueden formular las siguientes preguntas: 
