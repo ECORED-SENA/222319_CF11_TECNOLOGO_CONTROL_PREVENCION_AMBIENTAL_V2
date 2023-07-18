@@ -259,7 +259,6 @@ export default {
     {
       referencia:
         'Alcaldía de Santiago de Cali. (2005).  Identificación de fuentes. ',
-      link: 'http://web1.cali.gov.co/descargar.php?idFile=7671',
     },
     {
       referencia:

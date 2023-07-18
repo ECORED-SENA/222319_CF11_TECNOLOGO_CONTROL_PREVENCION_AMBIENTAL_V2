@@ -72,7 +72,7 @@
               .col-lg-7.my-3
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 8.
-                  span Paso de diagrama causa-efecto               
+                  span Paso de diagrama causa-efecto 2               
                 .bgw.bradbot.p-4
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.svg') 
                 figcaption Nota. Educaguía (2005).

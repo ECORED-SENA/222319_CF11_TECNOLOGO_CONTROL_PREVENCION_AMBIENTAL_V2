@@ -31,12 +31,6 @@
 
     p(data-aos="fade-down").mb-5 En el material complementario revise el video “Norma de Vertimientos” para conocer más del tema.
 
-    .row.justify-content-center.align-items-center        
-      .col-lg-12(data-aos="fade-left")     
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/Dh7MDGJ8w3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)                                        
-        figcaption Video. Normas y hábitos personales en el laboratorio
 </template>
 
 <script>
