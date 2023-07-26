@@ -330,19 +330,19 @@ export default {
       referencia:
         'Ministerio de ambiente y desarrollo sostenible. (2015). Decreto 1076 de 2015. ',
       link:
-        'http://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/08/Decreto-Unico-Reglamentario-Sector-Ambiental-1076-Mayo-2015.pdf',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/06/Decreto-1076-de-2015.pdf',
     },
     {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (2015). Resolución 0631 del 2015. ',
       link:
-        'https://www.minambiente.gov.co/images/normativa/app/resoluciones/d1-res_631_marz_2015.pdf',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/11/resolucion-631-de-2015.pdf',
     },
     {
       referencia:
         'Ministerio de Vivienda, Ordenamiento Territorial y Medio Ambiente (1996) Manual de procedimientos analíticos para aguas y efluentes.',
       link:
-        'http://imasd.fcien.edu.uy/difusion/educamb/docs/pdfs/manual_dinama.pdf',
+        'https://corporacionbiologica.info/wp-content/uploads/2021/05/Man-de-Prac-Analiti-para-aguas-y-efluen.pdf',
     },
     {
       referencia:
