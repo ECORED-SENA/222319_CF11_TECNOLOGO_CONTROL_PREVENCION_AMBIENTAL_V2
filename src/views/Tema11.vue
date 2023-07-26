@@ -103,7 +103,7 @@
 
               li 
                 i.fas.fa-angle-right
-                p.mb-0 #[b Capítulo VII.] Actividades industriales, comerciales o de servicios diferentes a las contempladas en los Capítulos v y vi con vertimientos puntuales a cuerpos de agua superficiales.
+                p.mb-0 #[b Capítulo VII.] Actividades industriales, comerciales o de servicios diferentes a las contempladas en los Capítulos V y VI con vertimientos puntuales a cuerpos de agua superficiales.
 
               li 
                 i.fas.fa-angle-right
