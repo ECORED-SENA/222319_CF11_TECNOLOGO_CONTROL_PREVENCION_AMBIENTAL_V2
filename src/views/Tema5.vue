@@ -9,9 +9,6 @@
 
     .row.align-items-start.mb-4
       .col-lg-4
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
-          span Conferencia       
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/15.png')
         figcaption #[b Nota.] Conferencia en normativa para el tratamiento de agua lluvia y residual. Pedraza, S. (2018).
 

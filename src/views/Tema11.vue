@@ -39,7 +39,7 @@
           ol.lista-ol.fa-ul
             li 
               span.text-bold 1. 
-              p(data-aos="fade-down").mb-0 Las determinaciones de las diferencias de los #[b valores de temperatura] en la zona de mezcla térmica del cuerpo de agua superficial receptor tomando como referencia las condiciones de la temperatura de este antes del punto de vertimiento puntual y imultáneamente. (Ministerio de Ambiente y Desarrollo Sostenible, 2015).          
+              p(data-aos="fade-down").mb-0 Las determinaciones de las diferencias de los #[b valores de temperatura] en la zona de mezcla térmica del cuerpo de agua superficial receptor tomando como referencia las condiciones de la temperatura de este antes del punto de vertimiento puntual y simultáneamente. (Ministerio de Ambiente y Desarrollo Sostenible, 2015).          
         .bg26.p-4
           ol.lista-ol.fa-ul
             li 
@@ -48,9 +48,9 @@
 
     p(data-aos="fade-down") Ambas determinaciones se hacen considerando para las mediciones la sección transversal y perpendicular del cauce del cuerpo de agua receptor y deben efectuarse para diferentes periodos climáticos (Ministerio de Ambiente y Desarrollo Sostenible, 2015). 
 
-    p(data-aos="fade-down") Así mismo la resolución determina en el Capítulo II. art. 6. los parámetros microbiológicos de análisis y reporte en los vertimientos puntuales de aguas residuales (ARD Y ARND) a cuerpos de aguas superficiales, e indica que:
+    p(data-aos="fade-down") Así mismo la resolución determina en el Capítulo II. art. 6. Los parámetros microbiológicos de análisis y reporte en los vertimientos puntuales de aguas residuales (ARD Y ARND) a cuerpos de aguas superficiales, e indica que:
 
-    p(data-aos="fade-down") se realizará el análisis y reporte de los valores de la concentración en Número Más Probable (NMP/100mL) de los Coliformes Termotolerantes presentes en los vertimientos puntuales de aguas residuales (ARD y ARnD) mediante las cuales se gestionen excretas humanas y/o de animales a cuerpos de aguas superficiales, cuando la carga másica en las aguas residuales antes del sistema de tratamiento es mayor a 125,00 Kg/día de DBO5 (Ministerio de Ambiente y Desarrollo Sostenible, 2015).  
+    p(data-aos="fade-down") Se realizará el análisis y reporte de los valores de la concentración en Número Más Probable (NMP/100mL) de los Coliformes Termotolerantes presentes en los vertimientos puntuales de aguas residuales (ARD y ARnD) mediante las cuales se gestionen excretas humanas y/o de animales a cuerpos de aguas superficiales, cuando la carga másica en las aguas residuales antes del sistema de tratamiento es mayor a 125,00 Kg/día de DBO5 (Ministerio de Ambiente y Desarrollo Sostenible, 2015).  
 
     p(data-aos="fade-down").mb-5 La resolución se divide por Capítulos de acuerdo con la siguiente tabla 2: 
 
@@ -84,7 +84,7 @@
                       
                   tr.bgt1
                     td(colspan='3').text-center <b>Capítulo VII</b>
-                    td(colspan='9') Actividades industriales, comerciales o de servicios diferentes a las contempladas en los Capítulos v y vi con vertimientos puntuales a cuerpos de agua superficiales.
+                    td(colspan='9') Actividades industriales, comerciales o de servicios diferentes a las contempladas en los Capítulos V y VI con vertimientos puntuales a cuerpos de agua superficiales.
             figcaption #[b Nota]. Adaptado de Pedraza (2020). 
 
     p(data-aos="fade-down").mb-5 La norma se divide por sectores para cubrir la mayor parte de la economía colombiana de la siguiente forma: 

@@ -56,7 +56,7 @@
             p(data-aos="fade-down").mb-0 Un balance de masa o materia, ver figura 18, es una herramienta muy importante que permite establecer cualitativa y cuantitativamente, para un proceso o servicio, los insumos utilizados (materias primas, agua, energía, etc.), los productos, subproductos y los residuos o desechos generados. El principio fundamental de un balance de masa se basa en que todos los insumos que entran a un proceso u operación salen como productos y como residuos (Alcaldía de Santiago de Cali, s.f)                    
           .col-lg-7.my-3
             .titulo-sexto.color-acento-contenido
-              h5 Figura 17.
+              h5 Figura 18.
               span Esquema balance de masa.
             .bgw.bsha.brad.p-4
               img.img-a.img-t.mb-3(data-aos="fade-down")(src='@/assets/curso/temas/87.svg', alt='') 
@@ -122,7 +122,7 @@
       .row.justify-content-center      
         .col-lg-5 
           .titulo-sexto.color-acento-contenido
-            h5 Figura 18.
+            h5 Figura 19.
             span Consumos de agua
           .bgw.bsha.brad.p-4            
             img.img-a.img-t.mb-3(data-aos="fade-down")(src='@/assets/curso/temas/88.png', alt='')
@@ -130,7 +130,7 @@
         .col-lg-7
           p(data-aos="fade-down") De allí se pasa a la estimación o cuantificación de la generación de los vertimientos de acuerdo con la actividad o proceso productivo, de servicios, actividad en áreas conexas o secundarias a la empresa, ver figura 20: 
           .titulo-sexto.color-acento-contenido
-            h5 Figura 19.
+            h5 Figura 20.
             span Esquema de balance hídrico a nivel industrial
           .bgw.bsha.brad.p-4
             img.img-a.img-t.mb-3(data-aos="fade-down")(src='@/assets/curso/temas/89.svg', alt='')

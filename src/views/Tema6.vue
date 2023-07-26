@@ -12,13 +12,10 @@
         .bg8.p-4.py-5 
           p(data-aos="fade-down") Consideraciones generales para la planificación: los aspectos generales para la concepción de proyectos de recolección y evacuación de aguas residuales y/o lluvias deben seguirse de acuerdo con lo señalado en el capítulo A.4 del Título A del RAS: 
 
-          p(data-aos="fade-down").mb-0 #[b “Aspectos generales de los sistemas de agua potable y saneamiento básico”]. En los literales D.2.6.1 y D.2.6.2 de este título se establecen los requisitos y actividades que, en general, son necesarios al desarrollar proyectos completos de recolección y evacuación de aguas residuales y/o lluvias. Para proyectos de expansión y rehabilitación, el diseñador debe establecer cuáles de estos son relevantes para el caso específico. Ver figura 4.
+          p(data-aos="fade-down").mb-0 #[b “Aspectos generales de los sistemas de agua potable y saneamiento básico”]. En los literales D.2.6.1 y D.2.6.2 de este título se establecen los requisitos y actividades que, en general, son necesarios al desarrollar proyectos completos de recolección y evacuación de aguas residuales y/o lluvias. Para proyectos de expansión y rehabilitación, el diseñador debe establecer cuáles de estos son relevantes para el caso específico.
       .col-lg-5
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 4.
-          span Visita a la PTAR       
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/18.png')
-        figcaption #[b Nota.] Visita técnica a la PTAR de Rio frio - EMPAS. Pedraza, S. (2016). 
+        figcaption #[b Nota.] Visita técnica a la PTAR de Río frío - EMPAS. Pedraza, S. (2016). 
 
     Separador 
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

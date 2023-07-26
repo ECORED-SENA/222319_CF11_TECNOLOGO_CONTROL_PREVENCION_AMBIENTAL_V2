@@ -15,7 +15,7 @@
         .col-lg-auto.my-3
           img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/1.svg')
         .col.my-3
-          p.mb-0(data-aos="fade-down") Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos la temática relacionada con el el diagnóstico de los residuos y vertimientos generados según normativa vigente. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+          p.mb-0(data-aos="fade-down") Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos la temática relacionada con el diagnóstico de los residuos y vertimientos generados según normativa vigente. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12(data-aos="fade-left")     

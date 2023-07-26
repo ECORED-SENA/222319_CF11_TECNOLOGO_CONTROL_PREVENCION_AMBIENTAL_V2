@@ -8,12 +8,9 @@
       h1 Parámetros físicos, químicos y microbiológicos del agua residual
 
     .bg3.p-4
-      p(data-aos="fade-down") Los parámetros fisicoquímicos del agua residual son mediciones que nos permiten determinar la calidad de un vertimiento ya sea para el tratamiento de este, para la descarga al alcantarillado o también a un cuerpo de agua, ver figura 2.
+      p(data-aos="fade-down") Los parámetros fisicoquímicos del agua residual son mediciones que nos permiten determinar la calidad de un vertimiento ya sea para el tratamiento de este, para la descarga al alcantarillado o también a un cuerpo de agua.
     .row.justify-content-center.mb-5.mtop.px-md-4 
       .col-lg-8
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
-          span Laboratorio de parámetros físico, químicos del agua 
         img.img-a.img-t(data-aos="fade-down")(src='@/assets/curso/temas/11.png', alt='')
         figcaption #[b Nota.] Medición de pH, Oxígeno disuelto y turbidez en planta de tratamiento de artes gráficas. Pedraza, S. (2016). - SENA.
 

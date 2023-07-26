@@ -52,10 +52,10 @@
             .col-lg-7.my-3                
               p(data-aos="fade-down").mb-0 En caso de tomar la decisión de utilizar un vertedero de geometría conocida implica necesariamente que el flujo del vertimiento se dirija sobre un canal abierto, en el cual se pueda conocer la carga o cabeza (H) de la corriente sobre el vertedero. Con este valor se podrá determinar el caudal en el canal. Este método no es muy aplicable por dos razones: a) la mayoría de las descargas se realizan por medio de tuberías y b) el lograr coincidir un vertedero de geometría conocida (rectangular con o sin contracción, triangular o trapezoidal) y graduado con el ancho del canal es bastante improbable (Instituto de Hidrología, Meteorología y Estudios Ambientales, 2007).
 
-    h5(data-aos="fade-down") Canales abiertos: 
+    h5(data-aos="fade-down") Canales abiertos:  
     .row.justify-content-center.align-items-center.mb-5
       .col.my-3
-        p(data-aos="fade-down").mb-0 aplica para efluentes como canales, quebradas, ríos, zanjas etc. En algunas ocasiones se podrá observar la presencia de instalaciones que permiten la salida fácil del vertimiento y con dimensiones conocidas o fácilmente medibles, una vez se conozca el área de la sección transversal de la salida del vertimiento se determina la velocidad de salida. Esta velocidad se puede obtener mediante la utilización de un elemento que flote a lo largo del canal o tubería (método flotador), de manera que pueda determinarse la velocidad superficial del vertimiento o mediante la utilización de un molinete para hallar la velocidad media de la corriente (Instituto de Hidrología, Meteorología y Estudios Ambientales, 2007).
+        p(data-aos="fade-down").mb-0 Aplica para efluentes como canales, quebradas, ríos, zanjas etc. En algunas ocasiones se podrá observar la presencia de instalaciones que permiten la salida fácil del vertimiento y con dimensiones conocidas o fácilmente medibles, una vez se conozca el área de la sección transversal de la salida del vertimiento se determina la velocidad de salida. Esta velocidad se puede obtener mediante la utilización de un elemento que flote a lo largo del canal o tubería (método flotador), de manera que pueda determinarse la velocidad superficial del vertimiento o mediante la utilización de un molinete para hallar la velocidad media de la corriente (Instituto de Hidrología, Meteorología y Estudios Ambientales, 2007).
       .col-auto.my-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/62.svg')
 

@@ -11,11 +11,9 @@
       .col-lg-8
         .bg14.p-3.mb-4
           p(data-aos="fade-down").mb-0 Se denomina diagrama de flujo a una representación gráfica de distintos procedimientos lógicos que tiene como finalidad brindar una simplificación y comprensión de éstos. Se usa especialmente en el área de la informática para el desarrollo de programas, como para el establecimiento de distintos procesos técnicos en el área industrial.
-        p(data-aos="fade-down").mb-0 No obstante, su comprensión y utilización puede ser de enorme utilidad en cualquier área técnica que busque tener un reflejo pertinente de alguna secuencia lógica. Los diagramas de flujo existen desde hace muchos años y su utilización coincide con el desarrollo de la tecnología como una introducción crítica para el incremento de la producción en cualquier sector que se considere. Es por ello por lo que este tipo de registros gráficos suelen enseñarse en carreras técnicas que hacen un uso más intensivo de ellos, ver figura 5.
+        p(data-aos="fade-down").mb-0 No obstante, su comprensión y utilización puede ser de enorme utilidad en cualquier área técnica que busque tener un reflejo pertinente de alguna secuencia lógica. Los diagramas de flujo existen desde hace muchos años y su utilización coincide con el desarrollo de la tecnología como una introducción crítica para el incremento de la producción en cualquier sector que se considere. Es por ello por lo que este tipo de registros gráficos suelen enseñarse en carreras técnicas que hacen un uso más intensivo de ellos.
       .col-lg-4
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 5.
-          span Práctica de supervisión de insumos   
+
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png')
         figcaption Nota. Práctica de supervisión de insumos en planta, verificación en proceso. Pedraza, S. (2016) 
 
@@ -38,7 +36,7 @@
               i.fas.fa-circle.c3
               | #[b Diagramas de causa y efecto]
 
-        p(data-aos="fade-down").mb-5 La variabilidad de las características de calidad es un efecto observado que tiene múltiples causas. Cuando ocurre algún problema con la calidad del producto, debemos investigar para identificar las causas del mismo. Para ello nos sirven los Diagramas de Causa - Efecto, conocidos también como Diagramas de Espina de Pescado por la forma que tienen. Estos diagramas fueron utilizados por primera vez por Kaoru Ishikawa (Educaguía, 2005).
+        p(data-aos="fade-down").mb-5 La variabilidad de las características de calidad es un efecto observado que tiene múltiples causas. Cuando ocurre algún problema con la calidad del producto, debemos investigar para identificar las causas del mismo. Para ello nos sirven los Diagramas de Causa - Efecto, conocidos también como Diagramas de Espina de Pescado por la forma que tienen. Estos diagramas fueron utilizados por primera vez por #[i Kaoru Ishikawa] (Educaguía, 2005).
 
         .bgw.brad.bsha.p-4
           .titulo-sexto.color-acento-contenido
@@ -56,7 +54,7 @@
           SlyderA(tipo="b")
             .row.justify-content-center
               .col-lg-4.my-3
-                h4 a.) Paso 1. 
+                h4 Paso 1. 
                 p Se decide cuál va a ser la característica de calidad que se va a analizar. Por ejemplo, si se considera hablar de un producto: “la mayonesa” y sus características que podrían ser el peso del frasco lleno, la densidad del producto, el porcentaje de aceite, etc., ver figura 7. Se traza una flecha gruesa que representa el proceso y a la derecha escribimos la característica de calidad (Educaguía, 2005).
               .col-lg-7.my-3
                 .titulo-sexto.color-acento-contenido
@@ -67,7 +65,7 @@
                 figcaption Nota. Educaguía (2005).
             .row.justify-content-center
               .col-lg-4.my-3
-                h4 b.) Paso 2. 
+                h4 Paso 2. 
                 p Indicamos los factores causales más importantes y generales que puedan generar cambios de la característica de calidad, trazando flechas secundarias hacia la principal, ver figura 8. Por ejemplo, Materias Primas, Equipos, Operarios, Método de Medición, etc. (Educaguía, 2005).
               .col-lg-7.my-3
                 .titulo-sexto.color-acento-contenido
@@ -78,7 +76,7 @@
                 figcaption Nota. Educaguía (2005).
             .row.justify-content-center
               .col-lg-12
-                h4 c.) Paso 3. 
+                h4 Paso 3. 
                 p Se incorporan en cada rama factores más detallados que se puedan considerar causas de cambio o variación. Ver figura 9.
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 9.
@@ -88,8 +86,8 @@
                 figcaption Nota. Educaguía (2005).
             .row.justify-content-center
               .col-lg-12
-                h4 d.) Paso 4. 
-                p Finalmente verificamos que todos los factores que puedan causar variación hayan sido incorporados al diagrama. Las relaciones Causa-Efecto deben quedar claramente establecidas y en ese caso, el diagrama está terminado. Revise un ejemplo de la Guía de Control de Calidad de Kaoru Ishikawa, publicada por UNIPUB (N. York). Se trata de una máquina en la cual se produce un defecto de rotación oscilante, ver figura 10. La característica de calidad es la oscilación de un eje durante la rotación (Educaguía, 2005).
+                h4 Paso 4. 
+                p Finalmente verificamos que todos los factores que puedan causar variación hayan sido incorporados al diagrama. Las relaciones Causa-Efecto deben quedar claramente establecidas y en ese caso, el diagrama está terminado. Revise un ejemplo de la Guía de Control de Calidad de #[i Kaoru Ishikawa], publicada por UNIPUB (N. York). Se trata de una máquina en la cual se produce un defecto de rotación oscilante, ver figura 10. La característica de calidad es la oscilación de un eje durante la rotación (Educaguía, 2005).
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 10.
                   span  Paso diagrama causa-efecto 4              
